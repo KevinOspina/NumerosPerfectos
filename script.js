@@ -31,7 +31,7 @@ function perfecto(numero) {
 
 while (n_perfectos.length <= 10) {
     console.log(valor, n_perfectos);
-    let val = new Double(0)
+    let val = Number()
     let suma = perfecto_recursivo(valor, 1,  val) 
     if (suma==valor) n_perfectos.push(valor)
 
